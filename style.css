@@ -1,0 +1,47 @@
+/*
+Theme Name: Consulting Child
+Author: Diane Selvy
+Author URI: http://dianeselvy.com
+Template: consulting
+*/
+
+#sub-footer-core {
+    display:none;
+}
+
+.services-builder.style1 {
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.alignnone.wp-image-73 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#sub-footer {
+    background:#ffffff;
+}
