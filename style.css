@@ -45,3 +45,7 @@ Template: consulting
 #sub-footer {
     background:#ffffff;
 }
+
+.distribution {
+    column-count: 3;
+}
