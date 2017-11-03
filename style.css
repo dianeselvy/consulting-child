@@ -49,3 +49,15 @@ Template: consulting
 .distribution {
     column-count: 3;
 }
+
+.action-text h3:before {
+	left: 0;
+	right: 40px;
+	border-bottom: 2px solid #3D6899;
+}
+
+.action-text h3:after {
+	left: 40px;
+	right: 0;
+	border-bottom: 2px solid #3D6899;
+}
