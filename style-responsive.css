@@ -49,7 +49,7 @@
 		float: none;
 	}
 	#pre-header {
-		padding: 0 10px;
+		padding: 0px;
 	}
 	#logo {
 		float: none !important;
@@ -86,7 +86,7 @@
 	#header-core {
 		display: table;
 		width: 100%;
-		padding: 0px;
+		padding: 0 10px;
 		-webkit-box-sizing: border-box;
 		-moz-box-sizing: border-box;
 		-ms-box-sizing: border-box;
@@ -102,12 +102,12 @@
 		z-index: 1;
 		position: relative;
 		width: 60px;
-		border-right: 1px solid #EEE
+		border-right: 1px solid #EEE;
 	}
 	#header-responsive {
 		display: block;
 		width: 100%;
-		background: #292929;
+		background: #3D6899;
 		padding: 0 20px;
 	}
 	#header-responsive ul {
@@ -152,7 +152,7 @@
 		width: 20px;
 		height: 3px;
 		margin: 0 auto;
-		background-color: #292929;
+		background-color: #3D6899;
 	}
 	.nav-collapse.collapse {
 		-webkit-transition: height 0.35s ease;
