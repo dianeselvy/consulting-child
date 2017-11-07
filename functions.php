@@ -9,7 +9,7 @@ function enqueue_parent_styles() {
     
     // enqueue child styles
 	wp_enqueue_style('child-style', get_stylesheet_directory_uri() .'/style.css', array('parent-theme'));
-	wp_enqueue_style('child-style', get_stylesheet_directory_uri() .'/style-responsive.css', array('parent-theme'));
+	wp_enqueue_style('child-style', get_stylesheet_directory_uri() .'/styles/style-responsive.css', array('parent-theme'));
 }
 	// Register theme stylesheets
 	wp_register_style( 'consulting-thinkup-responsive', get_template_directory_uri() . '/styles/style-responsive.css', '', $consulting_thinkup_theme_version );
