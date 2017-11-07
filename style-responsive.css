@@ -41,7 +41,6 @@ Text Domain: consulting
 	#content {
 		padding-top: 30px;
 	}
-
 	/* Boxed Layout */
 	body.layout-boxed #body-core,
 	body.custom-background #body-core {
@@ -288,7 +287,9 @@ Text Domain: consulting
 	/* Sidebar */
 
 	/* Blog */
-
+    .one_third {
+        width: 100%
+    }
 	/* Post */
 	.commentlist .children .children .children { 
 		margin: 0px; 
