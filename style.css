@@ -5,10 +5,6 @@ Author URI: http://dianeselvy.com
 Template: consulting
 */
 
-#sub-footer-core {
-    display:none;
-}
-
 .services-builder.style1 {
 
 }
@@ -43,7 +39,12 @@ Template: consulting
 }
 
 #sub-footer {
-    background:#ffffff;
+    background:#3d6899;
+}
+
+div.copyright {
+    color:#ffffff;
+    text-align:center;
 }
 
 .distribution {
@@ -60,4 +61,12 @@ Template: consulting
 	left: 40px;
 	right: 0;
 	border-bottom: 2px solid #3D6899;
+}
+
+#mega-menu-wrap-header_menu {
+    background:#3d6899;
+}
+
+.mega-menu-link {
+    color:#000000;
 }
